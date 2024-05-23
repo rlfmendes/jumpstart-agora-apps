@@ -72,7 +72,7 @@ def init_yolo_safety_detector():
         ovms_url=ovms_url, 
         save_img_loc=False,
         verbose=False,
-        skip_rate=2
+        skip_rate=10
     )
 
 def init_welding_detector():
